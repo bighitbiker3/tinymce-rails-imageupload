@@ -55,6 +55,7 @@
 
         win = editor.windowManager.open(
           {
+            type: "panel",
             title: ed.translate("Insert an image from your computer"),
             size: "normal",
             body: body,
