@@ -342,7 +342,7 @@
         });
 
         // Adds a menu item to the tools menu
-        editor.addMenuItem("uploadimage", {
+        editor.ui.registry.addMenuItem("uploadimage", {
           text: ed.translate("Insert an image from your computer"),
           icon: "image",
           context: "insert",
