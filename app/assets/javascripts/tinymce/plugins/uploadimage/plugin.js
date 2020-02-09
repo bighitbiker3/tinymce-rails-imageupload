@@ -338,7 +338,7 @@
         editor.ui.registry.addButton("uploadimage", {
           tooltip: ed.translate("Insert an image from your computer"),
           icon: "image",
-          onclick: showDialog
+          onAction: showDialog
         });
 
         // Adds a menu item to the tools menu
@@ -346,7 +346,7 @@
           text: ed.translate("Insert an image from your computer"),
           icon: "image",
           context: "insert",
-          onclick: showDialog
+          onAction: showDialog
         });
       }
     }
